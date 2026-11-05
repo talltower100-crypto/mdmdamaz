@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <radialGradient id="eg" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#93c5fd"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Body -->
+  <path d="M32 10C23 10 16 17 16 27C16 37 23 44 32 44C41 44 48 37 48 27C48 17 41 10 32 10Z" stroke="#60a5fa" stroke-width="2.5" fill="none"/>
+
+  <!-- Ear tufts -->
+  <path d="M20 22C20 22 23 16 27 16" stroke="#60a5fa" stroke-width="2" stroke-linecap="round"/>
+  <path d="M44 22C44 22 41 16 37 16" stroke="#60a5fa" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Left eye -->
+  <circle cx="26" cy="26" r="5" stroke="#60a5fa" stroke-width="1.8"/>
+  <circle cx="26" cy="26" r="2.5" fill="url(#eg)"/>
+  <circle cx="24.8" cy="24.8" r="0.9" fill="white" opacity="0.9"/>
+
+  <!-- Right eye -->
+  <circle cx="38" cy="26" r="5" stroke="#60a5fa" stroke-width="1.8"/>
+  <circle cx="38" cy="26" r="2.5" fill="url(#eg)"/>
+  <circle cx="36.8" cy="24.8" r="0.9" fill="white" opacity="0.9"/>
+
+  <!-- Beak -->
+  <path d="M32 32L29 28H35L32 32Z" fill="#fbbf24"/>
+
+  <!-- Wing sweep -->
+  <path d="M17 32C12 32 8 39 8 47C8 55 17 59 32 59C47 59 56 55 56 47C56 39 52 32 47 32" stroke="#60a5fa" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="3 2"/>
+
+  <!-- Feet -->
+  <path d="M24 44L22 54M24 44L24 54M24 44L26 54" stroke="#60a5fa" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M40 44L38 54M40 44L40 54M40 44L42 54" stroke="#60a5fa" stroke-width="1.2" stroke-linecap="round"/>
+</svg>
